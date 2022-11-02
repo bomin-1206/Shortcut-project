@@ -1,0 +1,61 @@
+.Navbar .navbar_header{
+    width: 1480px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+.Navbar .main {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar .main .logo {
+    width: 260px;
+    height: 32px;
+    padding-right: 140px;
+    cursor: pointer;
+}
+
+.Navbar .main .menu {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.Navbar .go_home {
+    cursor: pointer;
+}
+
+.Navbar .go_hacks {
+    cursor: pointer;
+}
+
+.Navbar .go_algorithm {
+    cursor: pointer;
+}
+
+.Navbar .go_interview {
+    cursor: pointer;
+}
+
+.Navbar .imformation_user {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar .imformation_user .check_login {
+    cursor: pointer;
+}
+
+.Navbar .imformation_user .user {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.Navbar .hr {
+    border: 1px solid #D9D9D9;
+}

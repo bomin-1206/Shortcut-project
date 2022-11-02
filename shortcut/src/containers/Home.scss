@@ -1,0 +1,156 @@
+.Home {
+    width: 1903px;
+    margin: 0 auto;
+}
+
+.Home .home_main {
+    width: 1480px;
+    margin: 0 auto;
+    height: 912px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Home .home_main .home_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.Home .home_main .home_left .content {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.Home .home_main .home_left .home_logo {
+    width: 389px;
+    height: 47px;
+    margin-bottom: 100px;
+}
+
+.Home .home_main .home_left .start_bt {
+    width: 170px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: #CDC9FF;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.Home .home_main .home_developer {
+    width: 670px;
+    height: 743px;
+}
+
+.Home .first_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Home .first_text {
+    position: absolute;
+    left: 1200px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.Home .first_under {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .first_accent {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #A8A0F7;
+    margin: 0;
+}
+
+.Home .second_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Home .second_text {
+    position: absolute;
+    left: 170px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.Home .second_under {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .second_accent {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #8EC2FF;
+    margin: 0;
+}
+
+.Home .third_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.Home .third_text {
+    position: absolute;
+    left: 1200px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.Home .third_under {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .third_accent {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFE600;
+    margin: 0;
+}

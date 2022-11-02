@@ -1,0 +1,25 @@
+.Algorithm {
+    width: 1480px;
+    margin: 0 auto;
+}
+
+.Algorithm .search_box {
+    width: 1480px;
+    height: 58px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Algorithm .search_box input {
+    width: 370px;
+    height: 40px;
+    background: white;
+    background-image: url('../image/glass.png');
+    background-repeat: no-repeat;
+    background-position: 330px;
+    box-shadow: 1px 4px 4px 1px #CFCFCF;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
