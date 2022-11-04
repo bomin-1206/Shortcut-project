@@ -1,6 +1,6 @@
 .Mypage {
     width: 1480px;
-    height: 760px;
+    height: 777px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -14,18 +14,6 @@
     border-radius: 20px;
     border: none;
     background: white;
-    cursor: pointer;
-}
-
-.Mypage .mypage_text {
-    font-family: 'Noto Sans KR';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    letter-spacing: -0.02em;
-    color: #000000;
-    text-align: left;
-    margin-left: 40px;
 }
 
 .Mypage .secession {
@@ -35,5 +23,53 @@
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     border: none;
-    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Mypage .secession .image_secession {
+    width: 115px;
+    height: 259px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.Mypage .secession .secession_right {
+    width: 200px;
+    height: 240px;
+    text-align: left;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+.Mypage .mypage_text {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.Mypage .sub_text {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #868686;
+}
+
+.Mypage .secession_bt {
+    width: 130px;
+    height: 50px;
+    background: #312E2B;
+    border-radius: 15px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-top: 25px;
 }

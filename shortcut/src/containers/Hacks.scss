@@ -1,0 +1,26 @@
+.Hacks {
+    width: 1480px;
+    margin: 0 auto;
+}
+
+.Hacks .search_box {
+    width: 1480px;
+    height: 58px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Hacks .search_box input {
+    width: 330px;
+    height: 40px;
+    background: white;
+    background-image: url('../image/glass.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    box-shadow: 1px 4px 4px 1px #CFCFCF;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    padding-left: 40px;
+    font-weight: 500;
+}

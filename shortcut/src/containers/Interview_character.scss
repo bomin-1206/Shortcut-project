@@ -1,0 +1,88 @@
+.Interview_character {
+    width: 1480px;
+    height: 1350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Interview_character .character_text {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.Interview_character .goal {
+    width: 400px;
+    height: 358px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.Interview_character .adaptation {
+    width: 400px;
+    height: 358px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.Interview_character .attention {
+    width: 400px;
+    height: 358px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.Interview_character .creativity {
+    width: 400px;
+    height: 358px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.Interview_character .questions {
+    width: 400px;
+    height: 358px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.Interview_character .fit {
+    width: 400px;
+    height: 358px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.Interview_character .foreign {
+    width: 400px;
+    height: 358px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
