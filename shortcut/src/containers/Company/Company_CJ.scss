@@ -1,0 +1,42 @@
+.company_CJ {
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.company_CJ .title {
+    display: flex;
+    align-items: center;
+}
+
+.company_CJ .title .image_CJ {
+    width: 50px;
+    height: 50px;
+}
+
+.company_CJ .title .main_text {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.accent {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.company_CJ .contents {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-align: left;
+}
