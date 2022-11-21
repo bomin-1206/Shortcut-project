@@ -14,9 +14,9 @@ const Navbar = () => {
         <div className='Navbar'>
             <header className="navbar_header">
                 <div className='main'>
-                    <img src={logo} className="logo" alt="logo" onClick={()=>{ navigate('/Home') }}/>
+                    <img src={logo} className="logo" alt="logo" onClick={()=>{ navigate('/') }}/>
                     <div className='menu'>
-                        <p className="go_home" onClick={()=>{ navigate('/Home') }}>홈</p>
+                        <p className="go_home" onClick={()=>{ navigate('/') }}>홈</p>
                         <p className='go_hacks' onClick={()=>{ navigate('/Hacks') }}>꿀팁</p>
                         <p className='go_algorithm' onClick={()=>{ navigate('/Algorithm') }}>알고리즘</p>
                         <p className='go_interview' onClick={()=>{ navigate('/Interview') }}>면접</p>
