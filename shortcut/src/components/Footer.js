@@ -3,6 +3,9 @@ import logo from '../image/logo.png';
 import schoollogo from '../image/schoollogo.png';
 
 const Footer = () => {
+    
+    if(window.location.pathname === '/Login' || window.location.path === '/Register') return null;
+    
     return (
         <div className='Footer'>
             <header className='footer_header'>

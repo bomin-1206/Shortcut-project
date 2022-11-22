@@ -1,0 +1,83 @@
+.Register {
+    width: 100%;
+    height: 100vh;
+    background: #CDC9FF;
+    display: flex;
+}
+
+.Register .header {
+    width: 1460px;
+    height: 805.99px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+}
+
+.Register .header .image_developer {
+    float: left;
+}
+
+.Register .header .main .back_bt {
+    position: absolute;
+    top: 147px;
+    right: 1030px;
+    cursor: pointer;
+}
+
+.Register .header .main .logo {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.Register .header .main .main_text1 {
+    padding-right: 255px;
+    margin-bottom: 0;
+}
+
+.Register .header .main .main_text2 {
+    padding-right: 235px;
+    margin-bottom: 0;
+}
+
+.Register .header .main .main_text3 {
+    padding-right: 202px;
+    margin-bottom: 0;
+}
+
+.Register .header .main input {
+    width: 300px;
+    padding: 25px 5px 3px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    font-size: 18px;
+    color: black;
+    outline: none;
+}
+
+.Register .header .register_bt {
+    background: #A8A0F6;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 38px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.Register .header .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.Register .header .text .go_login {
+    font-weight: 400;
+    font-size: 16px;
+    color: #8B84D7;
+    cursor: pointer;
+}

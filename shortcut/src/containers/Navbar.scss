@@ -11,12 +11,12 @@
 .Navbar .main {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .Navbar .main .logo {
     width: 260px;
     height: 32px;
-    padding-right: 140px;
     cursor: pointer;
 }
 
@@ -30,18 +30,34 @@
 }
 
 .Navbar .go_home {
+    width: 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 
 .Navbar .go_hacks {
+    width: 60px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 
 .Navbar .go_algorithm {
+    width: 100px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 
 .Navbar .go_interview {
+    width: 60px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 
@@ -58,4 +74,76 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+.Navbar .go_home:hover {
+    color: #8B84D7;
+}
+
+.Navbar .go_home:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 38.4%;
+    transform: translateX(-50%);
+    width: 2%;
+    height: 3px;
+    background-color: #8B84D7;
+    top: 69px;
+    transition: all;
+}
+
+.Navbar .go_hacks:hover {
+    color: #8B84D7;
+}
+
+.Navbar .go_hacks:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 47.7%;
+    transform: translateX(-50%);
+    width: 3.5%;
+    height: 3px;
+    background-color: #8B84D7;
+    top: 69px;
+    transition: all;
+}
+
+.Navbar .go_algorithm:hover {
+    color: #8B84D7;
+}
+
+.Navbar .go_algorithm:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 58.56%;
+    transform: translateX(-50%);
+    width: 5.8%;
+    height: 3px;
+    background-color: #8B84D7;
+    top: 69px;
+    transition: all;
+}
+
+.Navbar .go_interview:hover {
+    color: #8B84D7;
+}
+
+.Navbar .go_interview:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 69.2%;
+    transform: translateX(-50%);
+    width: 3.3%;
+    height: 3px;
+    background-color: #8B84D7;
+    top: 69px;
+    transition: all;
+}
+
+.Navbar .navbar_header .main .imformation_user .user {
+    margin-left: 15px;
 }

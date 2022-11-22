@@ -9,6 +9,8 @@ const Navbar = () => {
     const [isLogin] = useState('');
 
     let navigate=useNavigate();
+
+    if(window.location.pathname === '/Login' || window.location.pathname === '/Register') return null;
     
     return (
         <div className='Navbar'>
@@ -22,7 +24,7 @@ const Navbar = () => {
                         <p className='go_interview' onClick={()=>{ navigate('/Interview') }}>면접</p>
                     </div>
                     <div className='imformation_user'>
-                        <p className='check_login'>{isLogin?'로그아웃':'로그인'}</p>
+                        <p className='check_login' onClick={() => {navigate('/Login')}}>{isLogin?'로그아웃':'로그인'}</p>
                         <img src={user} className="user" alt="user" onClick={()=> {navigate('./Mypage') }}/>
                     </div>
                 </div>

@@ -1,0 +1,78 @@
+.Login {
+    width: 100%;
+    height: 100vh;
+    background: #CDC9FF;
+    display: flex;
+}
+
+.Login .header {
+    width: 1460px;
+    height: 805.99px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+}
+
+.Login .header .image_developer {
+    float: left;
+}
+
+.Login .header .main .back_bt {
+    position: absolute;
+    top: 147px;
+    right: 1030px;
+    cursor: pointer;
+}
+
+.Login .header .main .logo {
+    margin-top: 190px;
+    margin-bottom: 50px;
+}
+
+.Login .header .main .main_text1 {
+    padding-right: 255px;
+    margin-bottom: 0;
+}
+
+.Login .header .main .main_text2 {
+    padding-right: 235px;
+    margin-bottom: 0;
+}
+
+.Login .header .main input {
+    width: 300px;
+    padding: 25px 5px 3px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    font-size: 18px;
+    color: black;
+    outline: none;
+}
+
+.Login .header .login_bt {
+    background: #A8A0F6;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 38px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.Login .header .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.Login .header .text .go_register {
+    font-weight: 400;
+    font-size: 16px;
+    color: #8B84D7;
+    cursor: pointer;
+}

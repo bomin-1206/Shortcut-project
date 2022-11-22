@@ -2,6 +2,8 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./containers/Navbar";
 import Footer from "./components/Footer";
+import Login from './containers/Login';
+import Register from './containers/Register';
 import Home from "./containers/Home";
 import Hacks from "./containers/Hacks";
 import Algorithm from "./containers/Algorithm";
@@ -37,6 +39,8 @@ function App() {
         <Navbar />
         <ScrollTop />
         <Routes>
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
           <Route path="/" element={<Home />} />
           <Route path="/Hacks" element={<Hacks />} />
           <Route path="/Algorithm" element={<Algorithm />} />
