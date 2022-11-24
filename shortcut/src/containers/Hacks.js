@@ -13,7 +13,9 @@ const Hacks = () => {
             </div>
             <div className='hacks_content'>
                 <div className='contents'>
-                    
+                    <div className='1'>
+                        
+                    </div>
                 </div>
             </div>
             <div className='plus_button'>
