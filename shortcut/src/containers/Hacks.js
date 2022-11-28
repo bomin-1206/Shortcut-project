@@ -12,11 +12,7 @@ const Hacks = () => {
                 <input type="serarch" className="search" placeholder="검색어를 입력해 주세요" />
             </div>
             <div className='hacks_content'>
-                <div className='contents'>
-                    <div className='1'>
-                        
-                    </div>
-                </div>
+                
             </div>
             <div className='plus_button'>
                 <button className='plus_bt' onClick={() => { navigate('/Makehacks')}}><img src={plus} className="plus" alt="plus" /></button>

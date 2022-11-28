@@ -23,15 +23,12 @@ const Home = () => {
                 </div>
                 <div className='first_content'>
                     <img src={first_image} className="first_image" alt="fist_image" />
-                    <p className='first_text'>다른 사람들과 나만의 정보를<div className='first_under'><p className='first_accent'>공유</p>해보세요</div></p>
                 </div>
                 <div className='second_content'>
-                    <p className='second_text'>다른 사람이 만든 문제를 풀어보고<div className='second_under'><p className='second_accent'>나만의 문제</p>를 만들어보세요</div></p>
                     <img src={second_image} className="second_image" alt="second_image" />
                 </div>
                 <div className='third_content'>
                     <img src={third_image} className="third_image" alt="third_image" />
-                    <p className='third_text'>면접 질문을 통해<div className='third_under'>혼자서 면접을<p className='third_accent'>연습</p>해보세요</div></p>
                 </div>
             </header>
         </div>
